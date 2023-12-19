@@ -61,7 +61,7 @@ Here's how you can flash the firmware on DevTerm(A06 or CM4) or a PC running Ubu
 ## Thermal Printer Testing Commands
 
 * How to print "Hello World".  
-`echo "hello world\n\n\n\n\n\n\n\n\n\n" > /tmp/DEVTERM_PRINTER_IN`
+`printf "hello world\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" > /tmp/DEVTERM_PRINTER_IN`
 
 * How to print a self test page.  
 `echo -en "\x12\x54" >  /tmp/DEVTERM_PRINTER_IN`
